@@ -1,2 +1,2 @@
-# Lung-Cancer-Detection
+# Lung-Cancer-Detection Model
 this uses cnn(just for testing purpose)()
