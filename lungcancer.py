@@ -19,7 +19,7 @@ print("✅ Path to dataset files:", path)
 # Step 2: Debug - Print dataset contents
 print("📂 Contents of dataset folder:", os.listdir(path))
 
-# Step 3: Ensure dataset structure
+# Step 3: Ensure the dataset structure
 expected_folders = ['cancer', 'no_cancer']
 current_folders = os.listdir(path)
 
