@@ -33,7 +33,7 @@ if not all(folder in current_folders for folder in expected_folders):
     os.makedirs(cancer_folder, exist_ok=True)
     os.makedirs(no_cancer_folder, exist_ok=True)
 
-    # Move files based on name (assuming file names have 'cancer' or 'no_cancer')
+    # Move files based on name (assuming the files names are 'cancer' or 'no_cancer')
     for file_name in current_folders:
         file_path = os.path.join(path, file_name)
         if os.path.isfile(file_path):
