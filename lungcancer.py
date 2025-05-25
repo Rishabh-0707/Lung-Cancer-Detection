@@ -45,7 +45,7 @@ if not all(folder in current_folders for folder in expected_folders):
     print("✅ Dataset structure fixed!")
     print("📂 New folder contents:", os.listdir(path))
 
-# Step 4: Set image dimensions and batch size
+# Step 4: Set the image dimensions and batch size
 img_height, img_width = 224, 224
 batch_size = 32
 
