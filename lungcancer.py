@@ -12,7 +12,7 @@ import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras import layers, models
 
-# Step 1: Download the lung cancer dataset
+# Step 1: Download the lung cancer dataset from kaggle
 path = kagglehub.dataset_download("adityamahimkar/iqothnccd-lung-cancer-dataset")
 print("✅ Path to dataset files:", path)
 
