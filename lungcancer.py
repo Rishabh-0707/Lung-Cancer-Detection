@@ -1,7 +1,6 @@
 # Install kagglehub and Pillow if not already installed
 # pip install kagglehub
 # pip install Pillow
-#model built using cnn
 
 
 import kagglehub
