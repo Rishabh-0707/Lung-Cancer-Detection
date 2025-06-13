@@ -2,7 +2,7 @@
 # pip install kagglehub
 # pip install Pillow
 #model built using cnn
-#datasetfromkaggle
+
 
 import kagglehub
 import os
